@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluquería Estrella</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #fff;
+        }
+        .logo { 
+            text-align: center; 
+            margin-bottom: 20px; 
+        }
+        .estrella { 
+            width: 100px; 
+            height: 100px; 
+            background: #FFD700; 
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin: 0 auto;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .slogan { 
+            color: #FFD700; 
+            text-align: center; 
+            margin: 20px 0; 
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .descripcion { 
+            background-color: #f9f9f9; 
+            padding: 20px; 
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .galeria { 
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 15px; 
+            margin: 30px 0; 
+        }
+        .galeria img { 
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+            border-radius: 8px; 
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+        .precios { 
+            background-color: #fff3e0; 
+            padding: 20px; 
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .botones { 
+            margin-top: 20px; 
+            display: flex; 
+            justify-content: center; 
+            gap: 20px; 
+            flex-wrap: wrap;
+        }
+        .btn { 
+            padding: 12px 24px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .whatsapp { 
+            background-color: #25D366; 
+            width: 140px;
+        }
+        .llamada { 
+            background-color: #FFA500; 
+            width: 140px;
+        }
+        .cita { 
+            background-color: #4CAF50; 
+            color: white; 
+            margin: 30px auto;
+            padding: 15px 30px; 
+            width: 80%;
+            font-size: 1.2rem;
+        }
+        .ubicacion { 
+            margin-top: 30px; 
+            text-align: center; 
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+        .instagram { 
+            margin-top: 20px; 
+            text-align: center; 
+        }
+        .instagram img {
+            width: 50px;
+            height: 50px;
+            background: #e4405f;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <div class="logo">
+        <h1><strong>Peluquería Estrella</strong></h1>
+        <div class="estrella">★</div>
+    </div>
+    <div class="slogan">
+        <h2>La peluquería que cambia tu vida</h2>
+    </div>
+
+    <!-- Descripción -->
+    <div class="descripcion">
+        <h3>Nuestra historia</h3>
+        <p>Bienvenido a Peluquería Estrella, donde cada corte es una obra de arte y cada visita una experiencia única. Con más de 10 años de experiencia, nuestros estilistas combinan técnica y creatividad para ofrecerte un look personalizado. Utilizamos productos de alta calidad y tendencias vanguardistas para transformar tu imagen.</p>
+    </div>
+
+    <!-- Galería de fotos -->
+    <h3>Nuestro trabajo</h3>
+    <div class="galeria">
+        <div class="img-placeholder">📸 Corte hombre</div>
+        <div class="img-placeholder">📸 Tinte mujer</div>
+        <div class="img-placeholder">📸 Peinado especial</div>
+        <div class="img-placeholder">📸 Tratamiento capilar</div>
+        <div class="img-placeholder">📸 Uñas decoradas</div>
+        <div class="img-placeholder">📸 Cliente feliz</div>
+    </div>
+
+    <!-- Precios -->
+    <div class="precios">
+        <h3>Precios desde 15€</h3>
+        <ul>
+            <li>Corte de pelo hombre: 15€</li>
+            <li>Corte de pelo mujer + Alisado: 20€</li>
+            <li>Tinte + Secado: 20€</li>
+        </ul>
+    </div>
+
+    <!-- Botones de contacto -->
+    <div class="botones">
+        <a href="https://wa.me/34654930278" class="btn whatsapp">WhatsApp</a>
+        <a href="tel:+34654930278" class="btn llamada">Llamada</a>
+    </div>
+
+    <!-- Botón de cita -->
+    <a href="https://miagenda.com" class="btn cita">Agenda tu propia cita</a>
+
+    <!-- Ubicación -->
+    <div class="ubicacion">
+        <h3>Nuestra ubicación</h3>
+        <p>
+            Calle La Luna, Nº2<br>
+            Barrio del Sol<br>
+            Barcelona, CP: 08222
+        </p>
+    </div>
+
+    <!-- Instagram -->
+    <div class="instagram">
+        <p>Síguenos en Instagram</p>
+        <a href="https://www.instagram.com/mis_5_corazoncitos_" target="_blank">
+            <div class="img-placeholder" style="width:50px; height:50px; margin:10px auto; border-radius:50%;">@</div>
+        </a>
+    </div>
+</body>
+</html>
